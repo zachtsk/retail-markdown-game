@@ -1,3 +1,28 @@
-<h1>Welcome to your library project</h1>
-<p>Create your package using @sveltejs/package and preview/showcase your work with SvelteKit</p>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	import { browser } from "$app/environment";
+	import StartRound from "../components/StartRound.svelte";
+	import Controls from "../components/Controls.svelte";
+	import Heading from "../components/Heading.svelte";
+
+    if (browser){
+        document.title = 'Retail Markdown Game'
+    }
+    
+</script>
+<main>
+    <div class="flex border-b border-gray-500 shadow-md gap-2 items-center">
+        <div class="ml-3 mt-1 w-8 self-center text-gray-600 antialiased">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"/>
+            </svg>
+        </div>
+        <h1 class="py-3 text-3xl antialiased font-medium text-gray-600">Markdown Simulation</h1>
+    </div>
+    <Controls/>
+    <Heading/>
+    <StartRound/>
+    <!-- WindowBuyers -->
+    <!-- WindowPrices -->
+    <!-- WindowResult -->
+</main>
