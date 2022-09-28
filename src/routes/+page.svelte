@@ -3,6 +3,7 @@
 	import StartRound from "../components/StartRound.svelte";
 	import Controls from "../components/Controls.svelte";
 	import Heading from "../components/Heading.svelte";
+	import WindowBuyers from "../components/WindowBuyers.svelte";
 
     if (browser){
         document.title = 'Retail Markdown Game'
@@ -22,7 +23,7 @@
     <Controls/>
     <Heading/>
     <StartRound/>
-    <!-- WindowBuyers -->
+    <WindowBuyers/>
     <!-- WindowPrices -->
     <!-- WindowResult -->
 </main>
