@@ -1,6 +1,6 @@
 <script>
-	import { incrementPrice } from "$lib/controls";
-	import { cost, price, wave_round,coef, intercept } from "$lib/game";
+	import { incrementPrice } from "../lib/controls";
+	import { cost, price, wave_round,coef, intercept } from "../lib/game_definition";
 </script>
 <div class="bg-gray-100 border-b border-gray-200">
     <div class="px-4 py-1 text-gray-700 font-semibold text-lg">Control Center</div>
@@ -33,7 +33,5 @@
             <div class="w-20 text-center text-gray-600 rounded-t border-t border-r border-l border-gray-400 bg-gray-50 text-md font-semibold">Round</div>
             <div class="w-20 text-center text-gray-600 rounded-b border-l border-r border-b border-gray-400 bg-gray-50 text-md font-semibold">Wave {$wave_round}</div>
         </div>   
-        <div>Coef: {$coef} </div>
-        <div>Coef: {$intercept} </div>
     </div>    
 </div>

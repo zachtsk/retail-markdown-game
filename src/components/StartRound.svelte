@@ -1,1 +1,0 @@
-<button class="mx-5 mt-2 px-3 py-1 rounded-lg bg-blue-500 text-white text-lg font-semibold hover:bg-blue-600 active:translate-y-[1px]">Start Round</button>

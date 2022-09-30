@@ -1,7 +1,7 @@
 import { derived, writable } from "svelte/store";
 
 // Probability that a purchase will be made
-function evaluateElasticity(price: number, coef: number, intercept: number) {
+export function evaluateElasticity(price: number, coef: number, intercept: number) {
     return Math.exp(Math.log(price) * coef + intercept)
 }
 
@@ -36,3 +36,9 @@ export const wave_size = 100
 export const wave_round = writable(0)
 export const wave_shoppers = writable({})
 export const wave_results = writable({})
+
+// Stage
+export let stageHeight = writable(0);
+export let stageWidth = writable(0);
+
+

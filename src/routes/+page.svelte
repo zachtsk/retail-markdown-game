@@ -1,6 +1,5 @@
 <script>
 	import { browser } from "$app/environment";
-	import StartRound from "../components/StartRound.svelte";
 	import Controls from "../components/Controls.svelte";
 	import Heading from "../components/Heading.svelte";
 	import WindowBuyers from "../components/WindowBuyers.svelte";
@@ -22,7 +21,6 @@
     </div>
     <Controls/>
     <Heading/>
-    <StartRound/>
     <WindowBuyers/>
     <!-- WindowPrices -->
     <!-- WindowResult -->
