@@ -1,6 +1,6 @@
 # retail-markdown-game
 
-https://user-images.githubusercontent.com/109352381/196039386-e9d198c8-3822-4457-8a72-a568e5cc870b.mp4
+https://user-images.githubusercontent.com/109352381/196040844-7fc536b8-e9e2-44d4-8935-2c493a191a0c.mp4
 
 Simulate simple price discovery for randomized items
 
