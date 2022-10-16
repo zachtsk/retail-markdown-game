@@ -34,8 +34,7 @@ export const intercept = derived(
 // Gameplay
 export const wave_size = 100
 export const wave_round = writable(0)
-export const wave_shoppers = writable({})
-export const wave_results = writable({})
+export const wave_results = writable([])
 
 // Stage
 export let stageHeight = writable(0);

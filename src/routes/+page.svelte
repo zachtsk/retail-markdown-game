@@ -1,5 +1,6 @@
 <script>
 	import { browser } from "$app/environment";
+	import WindowResults from "../components/WindowResults.svelte";
 	import Controls from "../components/Controls.svelte";
 	import Heading from "../components/Heading.svelte";
 	import WindowBuyers from "../components/WindowBuyers.svelte";
@@ -21,7 +22,9 @@
     </div>
     <Controls/>
     <Heading/>
-    <WindowBuyers/>
-    <!-- WindowPrices -->
-    <!-- WindowResult -->
+    <div class="flex flex-wrap items-start">
+        <WindowBuyers/>
+        <!-- WindowPrices -->
+        <WindowResults/>
+    </div>
 </main>

@@ -70,7 +70,7 @@ export class Round {
     price!: number;
     coef!: number;
     intercept!: number;
-    roundComplete:boolean = false;
+    roundComplete: boolean = false;
     shoppers: Person[] = [];
 
     constructor(coef: number, intercept: number, cost: number, price: number, stage: Stage) {
@@ -103,18 +103,24 @@ export class Round {
             e.next()
         })
         // Check that all shoppers have finished their animation
-        let countCompleted = this.shoppers.filter((e)=>e.completed).length
-        if (countCompleted==this.shoppers.length && countCompleted>0){
-            this.roundComplete=true
+        let countCompleted = this.shoppers.filter((e) => e.completed).length
+        if (countCompleted == this.shoppers.length && countCompleted > 0) {
+            this.roundComplete = true
         }
     }
- 
+
     // Costs, Revenue, Profit
     calculateShopperStats() {
         const units = this.shoppers.filter((e) => e.madePurchase).length
         const revenue = units * this.price;
         const costs = units * this.cost;
         const profit = revenue - costs
-        return [units, revenue, costs, profit]
+        return {
+            price: this.price,
+            units: units,
+            revenue: revenue,
+            cost: costs,
+            profit: profit
+        }
     }
 }
