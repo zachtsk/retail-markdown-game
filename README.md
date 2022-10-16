@@ -1,9 +1,12 @@
 # retail-markdown-game
- Simulate simple price discovery for randomized items
 
-## Developing
+https://user-images.githubusercontent.com/109352381/196039386-e9d198c8-3822-4457-8a72-a568e5cc870b.mp4
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Simulate simple price discovery for randomized items
+
+## Run in develop mode
+
+After cloning the project run:
 
 ```bash
 npm run dev
@@ -14,7 +17,7 @@ npm run dev -- --open
 
 ## Building
 
-To create a production version of your app:
+To create a production build run:
 
 ```bash
 npm run build
@@ -22,4 +25,4 @@ npm run build
 
 You can preview the production build with `npm run preview`.
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+> To deploy, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
