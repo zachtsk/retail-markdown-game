@@ -54,7 +54,7 @@
 			<tbody class="divide-y divide-gray-200 bg-white">
 				{#each results as rd, idx}
 					<tr>
-						<td class="{idx==mostProfitableIndex ? 'font-bold' : ''} whitespace-nowrap px-2 py-2 text-sm text-gray-500 text-center">{idx}</td>
+						<td class="{idx==mostProfitableIndex ? 'font-bold' : ''} whitespace-nowrap px-2 py-2 text-sm text-gray-500 text-center">{idx+1}</td>
 						<td class="{idx==mostProfitableIndex ? 'font-bold' : ''} whitespace-nowrap px-2 py-2 text-sm text-gray-500 text-center">${rd.price.toFixed(2)}</td>
 						<td class="{idx==mostProfitableIndex ? 'font-bold' : ''} whitespace-nowrap px-2 py-2 text-sm text-gray-500 text-center">{rd.units}</td>
 						<td class="{idx==mostProfitableIndex ? 'font-bold' : ''} whitespace-nowrap px-2 py-2 text-sm text-gray-500 text-center">${rd.revenue.toFixed(2)}</td>
