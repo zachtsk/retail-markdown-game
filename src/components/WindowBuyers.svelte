@@ -41,8 +41,8 @@
 		$wave_results = [];
 		shoppers = [];
 		$wave_round = 0;
-		$price = Math.round($cost * 2);
 		$cost = (Math.random() * 8.99) + 5.00;
+		$price = Math.round($cost * 2);
 		$coef = -2.01 + (Math.random() * -1.99);
 	}
 </script>
