@@ -1,4 +1,4 @@
-import { derived, writable } from "svelte/store";
+import { derived, get, writable } from "svelte/store";
 
 // Probability that a purchase will be made
 export function evaluateElasticity(price: number, coef: number, intercept: number) {
@@ -25,7 +25,7 @@ function findIntercept(low_price: number, coef: number) {
 
 // Elasticity Parameters
 export const cost = writable((Math.random() * 8.99) + 5.00)
-export const price = writable(15);
+export const price = writable(Math.round(get(cost) * 2));
 export const coef = writable(-2.01 + (Math.random() * -1.99));
 export const intercept = derived(
     [cost, coef], ([$cost, $coef]) => findIntercept($cost, $coef)
