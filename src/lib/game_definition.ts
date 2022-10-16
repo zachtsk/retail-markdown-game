@@ -5,7 +5,7 @@ export function evaluateElasticity(price: number, coef: number, intercept: numbe
     return Math.exp(Math.log(price) * coef + intercept)
 }
 
-// Fine appropriate intercept so that if you set the price
+// Find appropriate intercept so that if you set the price
 // near unit cost then you get ~100% probability of buying.
 function findIntercept(low_price: number, coef: number) {
     let intercept = -10;
