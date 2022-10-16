@@ -9,6 +9,7 @@ Simulate simple price discovery for randomized items
 After cloning the project run:
 
 ```bash
+npm install
 npm run dev
 
 # or start the server and open the app in a new browser tab
