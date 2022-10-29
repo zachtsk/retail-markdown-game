@@ -4,6 +4,7 @@
 	"scripts": {
 		"dev": "vite dev",
 		"build": "svelte-kit sync && svelte-package",
+		"deploy": "echo '' > build/.nojekyll && gh-pages -d build -t true",
 		"check": "svelte-kit sync && svelte-check --tsconfig tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig tsconfig.json --watch",
 		"lint": "prettier --plugin-search-dir app --check . && eslint .",
@@ -11,6 +12,7 @@
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "next",
+		"@sveltejs/adapter-static": "next",
 		"@sveltejs/kit": "next",
 		"@sveltejs/package": "next",
 		"@typescript-eslint/eslint-plugin": "^5.27.0",
@@ -30,5 +32,8 @@
 		"typescript": "^4.7.4",
 		"vite": "^3.1.0"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"gh-pages": "^4.0.0"
+	}
 }
