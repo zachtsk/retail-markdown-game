@@ -1,4 +1,4 @@
-<div class="mt-4 mb-1 ml-5 w-full flex">
+<div class="mt-4 mb-1 ml-12 w-full flex">
     <div class="shadow flex pl-2 pr-16 py-2 rounded border border-gray-200">
         <div class="mx-auto flex-shrink-0 flex items-center justify-center h-12 w-12 rounded-full bg-yellow-100 sm:mx-0 sm:h-10 sm:w-10">
             <!-- Heroicon name: outline/exclamation -->

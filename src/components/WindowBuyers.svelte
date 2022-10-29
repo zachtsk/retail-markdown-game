@@ -47,9 +47,9 @@
 	}
 </script>
 <div>
-	<button on:click={startRound} class="ml-5 mt-2 px-3 py-1 rounded-lg bg-blue-500 text-white text-lg font-semibold hover:bg-blue-600 active:translate-y-[1px]">Start Round</button>
+	<button on:click={startRound} class="ml-12 mt-2 px-3 py-1 rounded-lg bg-blue-500 text-white text-lg font-semibold hover:bg-blue-600 active:translate-y-[1px]">Start Round</button>
 	<button on:click={reset} class="ml-3 mt-2 px-3 py-1 rounded-lg bg-gray-500 text-white text-lg font-semibold hover:bg-gray-600 active:translate-y-[1px]">Reset Game</button>
-	<div class="ml-5 mt-3 flex">
+	<div class="ml-12 mt-3 flex">
 		<div class="shadow">
 			<!-- Top -->
 			<div

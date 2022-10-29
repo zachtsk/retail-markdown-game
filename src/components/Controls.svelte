@@ -3,8 +3,8 @@
 	import { cost, price, wave_round,coef, intercept } from "../lib/game_definition";
 </script>
 <div class="bg-gray-100 border-b border-gray-200">
-    <div class="px-4 py-1 text-gray-700 font-semibold text-lg">Control Center</div>
-    <div class="flex px-4 py-1 items-start">
+    <div class="pl-12 py-1 text-gray-700 font-semibold text-lg">Control Center</div>
+    <div class="flex pl-12 py-1 items-start">
         <!-- Price Container -->
         <div>
             <!-- Top -->
@@ -25,13 +25,13 @@
         <!-- Product Cost -->
         <div class="pl-3">
             <!-- Top -->
-            <div class="w-20 text-center text-gray-600 rounded-t border-t border-r border-l border-gray-400 bg-gray-50 text-md font-semibold">Unit Cost</div>
-            <div class="w-20 text-center text-gray-600 rounded-b border-l border-r border-b border-gray-400 bg-gray-50 text-md font-semibold">${$cost.toFixed(2)}</div>
+            <div class="px-1.5 text-center py-0.5 text-gray-500 rounded-t border-t border-r border-l border-gray-400 bg-gray-50 text-lg font-semibold">Unit Cost</div>
+            <div class="px-1.5 text-center py-0.5 text-gray-500 rounded-b border-l border-r border-b border-gray-400 bg-gray-50 text-xl font-semibold">${$cost.toFixed(2)}</div>
         </div>   
         <div class="pl-3">
             <!-- Top -->
-            <div class="w-20 text-center text-gray-600 rounded-t border-t border-r border-l border-gray-400 bg-gray-50 text-md font-semibold">Round</div>
-            <div class="w-20 text-center text-gray-600 rounded-b border-l border-r border-b border-gray-400 bg-gray-50 text-md font-semibold">Wave {$wave_round}</div>
+            <div class="px-2 text-center py-0.5 text-gray-500 rounded-t border-t border-r border-l border-gray-400 bg-gray-50 text-lg font-semibold">Round</div>
+            <div class="px-2 text-center py-0.5 text-gray-500 rounded-b border-l border-r border-b border-gray-400 bg-gray-50 text-lg font-semibold">{$wave_round}</div>
         </div>   
     </div>    
 </div>
