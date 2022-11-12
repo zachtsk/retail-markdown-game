@@ -17,7 +17,7 @@ const config = {
             fallback: 'index.html'
         }),
         paths: {
-            base: "/retail-markdown-game"
+            base: "/markdown-simulation"
         }
     }
 };
