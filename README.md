@@ -11,15 +11,12 @@ After cloning the project run:
 ```bash
 npm install
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
-## Building
+## Deploying to github pages
 
-To create a production build run:
 
 ```bash
 npm run build
+npm run deploy
 ```
