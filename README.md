@@ -10,7 +10,7 @@ This simulation is designed to demonstrate the price discovery process in a simp
 
 Check out the [live demo](https://zachtsk.github.io/markdown-simulation).
 
-## Run in develop mode
+## How to run locally
 
 After cloning the project run:
 
@@ -19,7 +19,7 @@ npm install
 npm run dev
 ```
 
-## Deploying to github pages
+## How to deploy to Github Pages
 
 
 ```bash
