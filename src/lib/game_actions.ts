@@ -25,7 +25,7 @@ export class Person {
 
     constructor(stage: Stage, willPurchase: boolean) {
         this.next = this.next.bind(this);
-        this.speed = 3 + (Math.random() * .5)
+        this.speed = 3.5 + (Math.random() * .5)
         this.willPurchase = willPurchase
         this.width = stage.width;
         if (willPurchase) {
