@@ -64,8 +64,9 @@
             class="ml-12 mt-2 px-3 py-1 rounded-lg bg-blue-500 text-white text-lg font-semibold hover:bg-blue-600 active:translate-y-[1px]
 				   disabled:bg-gray-300 disabled:text-gray-600 disabled:active:translate-y-0">Start Round
     </button>
-    <button on:click={()=>{disable=false; reset()}}
-            class="ml-3 mt-2 px-3 py-1 rounded-lg bg-gray-500 text-white text-lg font-semibold hover:bg-gray-600 active:translate-y-[1px]">
+    <button disabled={disable} on:click={()=>{disable=false; reset()}}
+            class="ml-3 mt-2 px-3 py-1 rounded-lg bg-gray-500 text-white text-lg font-semibold hover:bg-gray-600 active:translate-y-[1px]
+                  disabled:bg-gray-300 disabled:text-gray-600 disabled:active:translate-y-0">
         Reset Game
     </button>
     <div class="ml-12 mt-3 flex">
