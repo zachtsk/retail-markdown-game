@@ -18,11 +18,3 @@ After cloning the project run:
 npm install
 npm run dev
 ```
-
-## How to deploy to Github Pages
-
-
-```bash
-npm run build
-npm run deploy
-```
