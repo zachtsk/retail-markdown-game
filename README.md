@@ -8,7 +8,7 @@ If you knew nothing about a product other than the unit cost, how would you appr
 
 This simulation is designed to demonstrate the price discovery process in a simple a retail context.
 
-Each round, you can set a price that 100 potential buyers will evaluate. The probability that any individual will buy the product at the given price is set using a randomized log linear price curve.
+Each round, you can set a price that 100 potential buyers will evaluate. The probability that any individual will buy the product at the set price is determined using a randomized log linear price curve.
 
 Check out the [live demo](https://zachtsk.github.io/markdown-simulation).
 
