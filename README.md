@@ -10,7 +10,7 @@ This simulation is designed to demonstrate the price discovery process in a simp
 
 Each round, you can set a price that 50 potential buyers will evaluate. The probability that any individual will buy the product at the set price is determined using a randomized log linear price curve.
 
-Check out the [live demo](https://zachtsk.github.io/markdown-simulation).
+Check out the [live demo](https://zchtsk.github.io/markdown-simulation).
 
 ## How to run locally
 
